@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<i><b>🎃 Hello {}, I'm <a href=https://telegram.me/{}>{}</a></i></b> \n\n<i><b>🌟 Get Premium Membership at Just ₹40/- Per Month & I Will Provide You Any Movie,  Series, Anime etc.,</i></b>"""
-
+    GRPSTART = """<b><i>🌟 Type Any Movie/Series Name You Want & I Will Provide It👇</b></i>"""
     STATUS_TXT = """<b>🎗️ My Statistics 📲</b>
 ◉ <b>Total Files :</b> {}
 ◉ <b>Total Users :</b> {}
