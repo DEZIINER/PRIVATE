@@ -53,9 +53,12 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
                 photo="https://te.legra.ph/file/71eef93b310ace570b9cc.jpg",                                              
-                                                 caption=f'<b><i>🌟 Welcome To "PREMiUM"🌟\n\n✨ You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here!</i></b>',
+                                                 caption=f'<b><i>🌟 Welcome To "PREMiUM" 🌟\n\n🔆 You Can Get Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here!</i></b>',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔆彡[ @HEROFLiX ]彡🔆', url=f'https://telegram.me/heroflix') ] ] )
                 )
+                await asyncio.sleep(900)
+                await (temp.MELCOW['welcome']).delete()
+
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
 async def leave_a_chat(bot, message):
     if len(message.command) == 1:
