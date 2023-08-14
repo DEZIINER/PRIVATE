@@ -772,8 +772,8 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-      k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/HEROFLiX/894">Click Here</a>]</i></b>')
-        await asyncio.sleep(30)
+        k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/HEROFLiX/894">Click Here</a>]</i></b>')
+        await asyncio.sleep(60)
         await k.delete()
         return
     SPELL_CHECK[msg.id] = movielist
