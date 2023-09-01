@@ -1,6 +1,10 @@
 class script(object):
-    START_TXT = """<i><b>🎃 Hello {}, I'm <a href=https://telegram.me/{}>{}</a></i></b> \n\n<i><b>🌟 Get Premium Membership at Just ₹40/- Per Month & I Will Provide You Any Movie,  Series, Anime etc.,</i></b>"""
-    GRPSTART = """<b><i>🌟 Type Any Movie/Series Name You Want & I Will Provide It👇</b></i>"""
+    START_TXT = """<b><u>ʜᴇʏ 😎. {} ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</u></b>
+
+<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></u></b></spoiler>"""
+    
+    GRPSTART = """<b><i>⚡ ᴛʏᴘᴇ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ & ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ɪᴛ 👇</b></i>"""
+   
     STATUS_TXT = """<b>🎗️ My Statistics 📲</b>
 ◉ <b>Total Files :</b> {}
 ◉ <b>Total Users :</b> {}
@@ -10,8 +14,8 @@ class script(object):
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
-    SOURCE_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    ABOUT_TXT = """🔆彡[ @MYFLiiX_2 ]彡🔆"""
+    SOURCE_TXT = """🔆彡[ @MYFLiiX_2 ]彡🔆"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
