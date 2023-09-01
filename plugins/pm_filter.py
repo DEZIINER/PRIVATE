@@ -82,10 +82,10 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-
+ 
       btn.insert(0, 
           [
-              InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
       ])
   else:
       btn = []
