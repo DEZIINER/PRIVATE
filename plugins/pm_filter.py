@@ -83,6 +83,14 @@ async def next_page(bot, query):
             for file in files
         ]
 
+      btn.insert(0, 
+          [
+              InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+      ])
+  else:
+      btn = []
+  try:
+        if settings['max_btn']:        
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -660,7 +668,9 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-
+    btn.insert(0, [
+        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+    ])
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
