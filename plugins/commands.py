@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('🔆彡[ @HEROFLiX ]彡🔆', url=f'https://telegram.me/HeroFlix')
+            InlineKeyboardButton('🔆彡[ MYFLiiX ]彡🔆', url=f'https://telegram.me/MYFLiiX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GRPSTART.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -37,7 +37,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🌟Click Here For Premium🌟', url=f'https://telegram.me/HeroFlix/2184')
+            InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://telegram.me/MYFLiiX_2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -77,8 +77,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🌟Get Premium', url=f'https://telegram.me/HeroFlix/2184'),
-            InlineKeyboardButton('⚜ Updates', url='https://telegram.me/HeroFlix')
+            InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://telegram.me/MYFLiiX'),
+            InlineKeyboardButton('🗡️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🗡️', url='https://telegram.me/MYFLiiX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -228,7 +228,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔆彡[ @HEROFLiX ]彡🔆', url='https://telegram.me/HeroFlix') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url='https://telegram.me/MYFLiiX') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
