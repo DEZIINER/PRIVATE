@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b><i>ʜᴇʏ 😎. {} ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</i></b>
 
-<span class="tg-spoiler">🔋 </span><a href="https://telegram.me/xayoonara"><b><span class="tg-spoiler"><i><u><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ</b></u></i> - xᴀʏᴏɴᴀʀᴀ</span></b></a>"""
+<spoiler><b><u><i>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ </spoiler></b></u></i> <spoiler><b>- <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></b></spoiler>"""
     
     GRPSTART = """<b><i>⚡ ᴛʏᴘᴇ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ & ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ɪᴛ 👇</b></i>"""
    
@@ -101,6 +101,3 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
-
-RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ! """
