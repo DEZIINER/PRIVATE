@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """<b><i>ʜᴇʏ 😎.</i></b> {} <b><i>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</i></b>
+    START_TXT = """<b><i>ʜᴇʏ 😎.</i></b> <b><u>{}</u></b> <b><i>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</i></b>
 
-<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ </spoiler></b></u> <spoiler><b>- <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></b></spoiler>"""
+<spoiler><b><i>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ </spoiler></b></i> <spoiler><b><u>- <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></b></u></spoiler>"""
     
     GRPSTART = """<b><i>⚡ ᴛʏᴘᴇ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ & ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ɪᴛ 👇</b></i>"""
    
