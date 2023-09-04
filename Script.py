@@ -101,3 +101,6 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+
+RESTART_TXT = """
+<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ! """
