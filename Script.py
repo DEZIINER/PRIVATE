@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b><i>ʜᴇʏ 😎.  ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</i></b>
+    START_TXT = """<b><i>ʜᴇʏ 😎. {} ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</i></b>
 
 <span class="tg-spoiler">🔋 </span><a href="https://telegram.me/xayoonara"><b><span class="tg-spoiler"><i><u><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ</b></u></i> - xᴀʏᴏɴᴀʀᴀ</span></b></a>"""
     
