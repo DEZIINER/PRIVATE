@@ -37,7 +37,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'premium')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001652564383'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'herofeedbot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MYFLiiX_2')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
