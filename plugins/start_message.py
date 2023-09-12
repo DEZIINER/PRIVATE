@@ -1,6 +1,6 @@
 import datetime
 
-@bot.command("start")
+command("start")
 def start_command(update, context):
     user_id = update.message.from_user.id
     current_time = datetime.datetime.now()
